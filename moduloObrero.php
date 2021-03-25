@@ -36,8 +36,9 @@
                 
                 <button> <a href="agregarPrestamo.php?" >Agregar préstamo</a> </button>
                 
+                <!--
                 <button> <a href="#" onclick="clicCrearEntrega();">Agregar entrega material</a> </button>
-                
+                -->
                 <button> <a href="#" onclick="clicVerPrestamo();">Ver préstamos</a> </button>
             </nav>
          
