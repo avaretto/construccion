@@ -1,0 +1,170 @@
+html{
+    background-color: antiquewhite;
+}
+
+body{
+    /*background-color: aqua;*/
+}
+
+header{
+    background-color: orange;
+}
+main{
+    background-color: antiquewhite;
+}
+
+footer{
+    background-color: black;
+}
+
+#menu{
+    width: ;
+    background-color: green;
+
+}
+/*-----------BOTONES---------------------*/
+.boton{
+    width: 100px;
+    height: 20px;    
+    color: black;
+    background-color: lightgrey;
+}
+/*-----------FORMULARIOS---------------------*/
+.formulario{
+    width: 300px;
+    height: auto;
+    background-color: white;
+}
+/*-----------VENTANAS---------------------*/   
+.ventana{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 22px;
+    background-color: aqua;
+    position: absolute;
+    left: 60%;
+    display: none;
+}
+
+/*-----------IMÁGENES---------------------*/
+/*
+.logo{
+    width: 150px;
+    height: 50px;
+}
+*/
+/*-----------TABLAS---------------------*/
+/*tabla de 5 columnas*/
+.tablaContenedor5Columnas{
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+    border color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.tablaTitulo5Columnas{
+    background: lightgreen;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+/*tabla de 4 columnas*/
+.tablaContenedor4Columnas{
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+    border color: black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.tablaTitulo4Columnas{
+    background: lightgreen;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+/*elementos comunes para las tablas*/
+.tablaHeader{
+    background: yellow;
+    font-weight: bold;
+}
+.tablaItem{
+    background: white;
+}
+
+/*-----------ANIMACIONES---------------------*/
+
+
+
+/*-----------Iniciar Sesión-------------*/
+#iniciarSesion{   
+    display: block;
+}
+
+/*-----------Ver todos los Préstamos-------------*/
+#VerPrestamos{   
+    display: none;
+}
+
+/*-----------Buscar Préstamo-------------*/
+
+
+/*-----------Ver Préstamos de obrero-------------*/
+#VerPrestamoObrero{   
+    display: none;
+}
+/*-----------Buscar Obrero-------------*/
+#buscarObrero{   
+    display: block;
+}
+
+/*-----------Ingresar Préstamo-------------*/
+#IngresarPrestamo{   
+    display: none;
+}
+
+/*-----------Buscar Herramienta-------------*/
+#buscarHerramienta{   
+    display: none;
+}
+
+
+/*MODULO OBRERO*/
+
+/*-----------Crear Préstamo-------------*/
+#crearPrestamo{   
+    display: none;
+}
+
+/*-----------Crear Entrega-------------*/
+#crearEntrega{   
+    display: none;
+}
+
+/*-----------ver datos Obrero-------------*/
+#verObrero{   
+    display: block;
+}
+
+/*MODULO Herramienta*/
+
+/*-----------Crear Herramienta-------------*/
+#crearHerramienta{   
+    display: none;
+}
+#buscarHerramienta{   
+    display: none;
+}
+
+/*MODULO material*/
+
+/*-----------Buscar Material-------------*/
+#buscarMaterial{   
+    display: none;
+}
+/*-----------Crear Material-------------*/
+#crearMaterial{   
+    display: none;
+}
